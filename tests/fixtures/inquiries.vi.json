@@ -1,0 +1,971 @@
+[
+  {
+    "id": "vi-001",
+    "text": "Giá tôm sú size 20 hôm nay?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-002",
+    "text": "Tôm sú size 20 bao nhiêu một kg?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-003",
+    "text": "Cho em xin giá tôm sú size 20",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-004",
+    "text": "Tôm sú size 20 bn vậy shop?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-005",
+    "text": "Báo giá tôm sú size 20 giúp mình",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-006",
+    "text": "Tôm sú size 20 còn hàng không?",
+    "intents": ["inventory"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["inventory"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-007",
+    "text": "Còn tôm sú size 20 chứ ạ?",
+    "intents": ["inventory"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["inventory"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-008",
+    "text": "Tôm sú size 20 sẵn không shop?",
+    "intents": ["inventory"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["inventory"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-009",
+    "text": "Hết tôm sú size 20 chưa?",
+    "intents": ["inventory"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["inventory"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-010",
+    "text": "Tôm sú size 20 có sẵn hôm nay?",
+    "intents": ["inventory"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["inventory"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-011",
+    "text": "Ship Bình Thạnh bao nhiêu?",
+    "intents": ["shipping"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-012",
+    "text": "Giao Bình Thạnh mấy tiếng?",
+    "intents": ["shipping"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-013",
+    "text": "Phí vận chuyển Bình Thạnh thế nào?",
+    "intents": ["shipping"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-014",
+    "text": "Mình ở Bình Thạnh, ship được không?",
+    "intents": ["shipping"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-015",
+    "text": "Giao hàng tới Bình Thạnh giúp mình",
+    "intents": ["shipping"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-016",
+    "text": "Đặt hàng thế nào ạ?",
+    "intents": ["how_to_order"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["how_to_order"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-017",
+    "text": "Cách đặt hàng bên mình?",
+    "intents": ["how_to_order"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["how_to_order"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-018",
+    "text": "Muốn đặt hàng thì làm sao?",
+    "intents": ["how_to_order"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["how_to_order"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-019",
+    "text": "Hướng dẫn đặt hàng cho mình",
+    "intents": ["how_to_order"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["how_to_order"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-020",
+    "text": "Mình chưa biết đặt hàng ra sao",
+    "intents": ["how_to_order"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["how_to_order"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-021",
+    "text": "Mã đơn DH123 đang ở đâu?",
+    "intents": ["order_status"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["order_status"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": "DH123",
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-022",
+    "text": "Kiểm tra đơn DH123 giúp mình",
+    "intents": ["order_status"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["order_status"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": "DH123",
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-023",
+    "text": "DH123 giao chưa shop?",
+    "intents": ["order_status"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["order_status"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": "DH123",
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-024",
+    "text": "Đơn hàng DH123 có cập nhật chưa?",
+    "intents": ["order_status"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["order_status"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": "DH123",
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-025",
+    "text": "Mình hỏi tình trạng đơn DH123",
+    "intents": ["order_status"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["order_status"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": "DH123",
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-026",
+    "text": "Tôm bị hỏng, mình muốn hoàn tiền",
+    "intents": ["complaint"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["complaint"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "human_only"
+  },
+  {
+    "id": "vi-027",
+    "text": "Cá thối quá, xử lý giúp tôi",
+    "intents": ["complaint"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["complaint"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "human_only"
+  },
+  {
+    "id": "vi-028",
+    "text": "Mình khiếu nại đơn vừa nhận",
+    "intents": ["complaint"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["complaint"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "human_only"
+  },
+  {
+    "id": "vi-029",
+    "text": "Giao hàng bị hỏng hết rồi",
+    "intents": ["complaint"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["complaint"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "human_only"
+  },
+  {
+    "id": "vi-030",
+    "text": "Hoàn tiền giúp mình ngay",
+    "intents": ["complaint"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["complaint"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "human_only"
+  },
+  {
+    "id": "vi-031",
+    "text": "Cảm ơn shop nhiều",
+    "intents": ["compliment"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["compliment"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-032",
+    "text": "Hàng ngon lắm ạ",
+    "intents": ["compliment"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["compliment"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-033",
+    "text": "Rất tuyệt, cảm ơn em",
+    "intents": ["compliment"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["compliment"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-034",
+    "text": "Cảm ơn đã hỗ trợ",
+    "intents": ["compliment"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["compliment"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-035",
+    "text": "Ngon quá, lần sau mua tiếp",
+    "intents": ["compliment"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["compliment"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  },
+  {
+    "id": "vi-036",
+    "text": "Casino nhận thưởng ngay",
+    "intents": ["spam"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["spam"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "none"
+  },
+  {
+    "id": "vi-037",
+    "text": "Vay tiền nhanh không cần hồ sơ",
+    "intents": ["spam"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["spam"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "none"
+  },
+  {
+    "id": "vi-038",
+    "text": "Cờ bạc trực tuyến khuyến mãi",
+    "intents": ["spam"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["spam"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "none"
+  },
+  {
+    "id": "vi-039",
+    "text": "Tham gia casino hôm nay",
+    "intents": ["spam"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["spam"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "none"
+  },
+  {
+    "id": "vi-040",
+    "text": "Vay tiền lãi suất hấp dẫn",
+    "intents": ["spam"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["spam"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "none"
+  },
+  {
+    "id": "vi-041",
+    "text": "Giá cua hoàng đế thế nào?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-042",
+    "text": "Cá mú bao nhiêu tiền?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-043",
+    "text": "Báo giá bào ngư cho em",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-044",
+    "text": "Mực lá giá hôm nay?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-045",
+    "text": "Sò điệp bao nhiêu một kg?",
+    "intents": ["pricing"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-046",
+    "text": "Mình muốn gặp nhân viên",
+    "intents": ["other"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["other"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-047",
+    "text": "Có người thật hỗ trợ không?",
+    "intents": ["other"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["other"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-048",
+    "text": "Cho mình hỏi một chút",
+    "intents": ["other"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["other"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-049",
+    "text": "Shop tư vấn thêm nhé",
+    "intents": ["other"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["other"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-050",
+    "text": "Tôi cần người hỗ trợ",
+    "intents": ["other"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["other"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "draft_for_approval"
+  },
+  {
+    "id": "vi-051",
+    "text": "Tôm sú size 20 còn không, giá bao nhiêu, ship Bình Thạnh?",
+    "intents": ["inventory", "pricing", "shipping"],
+    "analysis": {
+      "language": "vi",
+      "intents": ["inventory", "pricing", "shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    },
+    "outcome": "auto_send"
+  }
+]

@@ -1,0 +1,6 @@
+{$DOMAIN:localhost} {
+  tls {$CADDY_TLS:internal}
+  encode zstd gzip
+  header Referrer-Policy "no-referrer"
+  reverse_proxy app:3000
+}

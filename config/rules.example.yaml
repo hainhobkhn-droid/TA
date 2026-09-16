@@ -1,0 +1,31 @@
+version: 1
+confidence: 0.9
+holding_reply: true
+duplicate_minutes: 15
+coverage: 24/7/365
+freshness:
+  price: 24
+  stock: 2
+  shipping_zones: 168
+  faq: 720
+  orders: 1
+  policies: 720
+intents:
+  pricing: auto_send
+  inventory: auto_send
+  shipping: auto_send
+  how_to_order: auto_send
+  order_status: auto_send
+  complaint: human_only
+  compliment: auto_send
+  spam: none
+  other: draft_for_approval
+forbidden_claims:
+  - chữa bệnh
+  - trị bệnh
+  - phòng bệnh
+  - tươi nhất
+  - sạch 100%
+  - không hoá chất
+  - cure
+  - medical

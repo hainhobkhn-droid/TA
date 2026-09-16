@@ -1,0 +1,37 @@
+name: Helpa checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: helpa
+          POSTGRES_PASSWORD: helpa-ci-only
+          POSTGRES_DB: helpa
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U helpa -d helpa"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      TEST_DATABASE_URL: postgresql://helpa:helpa-ci-only@127.0.0.1:5432/helpa
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.22.0"
+          cache: npm
+      - run: npm ci --legacy-peer-deps
+      - run: npm run format:check
+      - run: npm run typecheck
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-failure
+          path: test-results/

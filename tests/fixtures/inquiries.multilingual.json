@@ -1,0 +1,116 @@
+[
+  {
+    "id": "en01",
+    "text": "How much are Tiger prawns size 20?",
+    "intents": ["pricing"],
+    "outcome": "auto_send",
+    "analysis": {
+      "language": "en",
+      "intents": ["pricing"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["Tiger prawns size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    }
+  },
+  {
+    "id": "en02",
+    "text": "Do you have Tiger prawns size 20 in stock?",
+    "intents": ["inventory"],
+    "outcome": "auto_send",
+    "analysis": {
+      "language": "en",
+      "intents": ["inventory"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["Tiger prawns size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    }
+  },
+  {
+    "id": "mixed01",
+    "text": "Giá tôm sú size 20 and ship to Bình Thạnh?",
+    "intents": ["pricing", "shipping"],
+    "outcome": "auto_send",
+    "analysis": {
+      "language": "en",
+      "intents": ["pricing", "shipping"],
+      "confidence": 0.99,
+      "entities": {
+        "products": ["tôm sú size 20"],
+        "size": "20",
+        "quantity": null,
+        "location": "Bình Thạnh",
+        "orderId": null,
+        "phone": null
+      }
+    }
+  },
+  {
+    "id": "en03",
+    "text": "Your delivery arrived spoiled. I need a refund.",
+    "intents": ["complaint"],
+    "outcome": "human_only",
+    "analysis": {
+      "language": "en",
+      "intents": ["complaint"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    }
+  },
+  {
+    "id": "en04",
+    "text": "Thanks, the prawns were great!",
+    "intents": ["compliment"],
+    "outcome": "auto_send",
+    "analysis": {
+      "language": "en",
+      "intents": ["compliment"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    }
+  },
+  {
+    "id": "en05",
+    "text": "Can I speak to a human?",
+    "intents": ["other"],
+    "outcome": "draft_for_approval",
+    "analysis": {
+      "language": "en",
+      "intents": ["other"],
+      "confidence": 0.99,
+      "entities": {
+        "products": [],
+        "size": null,
+        "quantity": null,
+        "location": null,
+        "orderId": null,
+        "phone": null
+      }
+    }
+  }
+]
