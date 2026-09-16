@@ -1,12 +1,21 @@
 {
   "version": 2,
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/(.*)",
-      "destination": "/src/server/main.ts"
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
     },
     {
-      "source": "/(.*)",
+      "src": "/api/(.*)",
+      "destination": "/dist/server/server/main.js"
+    },
+    {
+      "src": "/(.*)",
       "destination": "/dist/web/index.html"
     }
   ]
