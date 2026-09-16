@@ -9,11 +9,14 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/src/server/app.ts"
+      "dest": "src/server/app.ts"
+    },
+    {
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "index.html"
     }
   ]
 }
