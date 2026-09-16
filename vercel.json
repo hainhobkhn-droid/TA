@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "rewrites": [
+  "routes": [
+    { "handle": "filesystem" },
     {
-      "source": "/api/(.*)",
+      "src": "/api/(.*)",
       "destination": "/dist/server/server/main.js"
     },
     {
-      "source": "/(.*)",
+      "src": "/(.*)",
       "destination": "/dist/web/index.html"
     }
   ]
