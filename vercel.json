@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "helpa-main/package.json",
-      "use": "@vercel/node"
+      "source": "/(.*)",
+      "destination": "/src/server/main.ts"
     }
   ]
 }
